@@ -16,7 +16,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto aut, cupiditate dolores
  ducimus expedita labore nemo odio quibusdam quidem sapiente soluta.
                 </h2>
-                <div style="color:black" class="scroll-button animate-scroll" tabindex="0">
+                <div style="color:black" class="scroll-button animate-scroll" tabindex="O">
                     <a href="/about">Click Here</a>
                     <div class="arrow">→</div>
                 </div>
