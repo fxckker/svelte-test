@@ -44,7 +44,7 @@
 
     .container {
         max-width: 1400px;
-        margin: 50px 0 0 2.5rem;
+        margin: 190px 0 0 2.5rem;
     }
 
     .info h1 {
@@ -70,10 +70,10 @@
     }
     
     .background-div {
-        background-color: red;
+        background-color: #ecebe8;
         width: 100%;
         height: 56vh;
-        margin: -160px auto;
+        margin: -205px auto;
     }
     .info .info-text{
         position: relative;
