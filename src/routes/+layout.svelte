@@ -19,29 +19,29 @@
         {
             title: "Обо мне",
             href: "/about",
-            isShow: true
+            isShow: true,
         },
         {
             title: "Блог",
             href: "/blog",
-            isShow: true
+            isShow: true,
         },
         {
             title: "Портфолио",
             href: "/project",
-            isShow: true
+            isShow: true,
         },
         {
             title: "Контакты",
             href: "/contact",
-            isShow: true
+            isShow: true,
         },
         {
             title: "temp",
             href: "/temp",
-            isShow: false
-        }
-    ]
+            isShow: false,
+        },
+    ];
 </script>
 
 <style>
