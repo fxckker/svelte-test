@@ -7,8 +7,8 @@
     <div class="todos">
         {#each todoList as item, index}
             <div class="todo" class:completed={item.completed}>
-                <span class="todo_text">{item.task}</span>
-                <div class="todo_buttons">
+                <span class="todo__text">{item.task}</span>
+                <div class="todo__buttons">
                     <button class="complete" on:click={()=> complete(index)}>
                         <Icon name="check-mark" />
                     </button>
@@ -64,6 +64,9 @@
         margin-bottom: 1rem;
     }
 
+    .todo.completed.todo__text{
+        text-decoration: line-through;
+    }
 
     input{
         flex-grow: 1;
@@ -88,7 +91,7 @@
     align-items: center;
     }
 
-    .todo_buttons {
+    .todo__buttons {
     display: flex;
     align-items: center;
     margin-left: 1rem;
@@ -134,10 +137,6 @@
     color: slategray;
     }
 
-    .todo.completed.todo_text {
-    text-decoration: line-through;
-    }
-
     .todo.completed button {
     color: silver;
     }
@@ -171,9 +170,7 @@
         color: slategray;
     }
 
-    .todo.completed.todo\_\_text{
-        text-decoration: line-through;
-    }
+
     .todo.completed button{
         color: silver;
     }
