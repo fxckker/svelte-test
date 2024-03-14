@@ -134,7 +134,7 @@
     color: slategray;
     }
 
-    .todo.completed.todo\_\_text {
+    .todo.completed.todo_text {
     text-decoration: line-through;
     }
 
